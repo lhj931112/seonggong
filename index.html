@@ -20,6 +20,8 @@
      font-size:60px; text-align: center;
      padding: 30px;
      border-bottom: 1px solid gray; 
+    
+     
     }
    li {
     font-size:20px;
@@ -28,15 +30,26 @@
     width: 350px; height: 350px;
     margin: 1px;
    }
-   p {
-    display: inline-block;
-   
+   .center{
+    position: relative; left: 50px;
    }
+   body{
+    margin: 0px;   
+    }
    ul{
-    border-top: 1px solid gray;
     margin top: 10px;
-    
+    width:150px;
    }
+   span{
+      
+      }
+   #grid{
+      display: grid;
+      grid-template-columns: 450px 450px 450px 450px;
+      border-bottom: 1px solid gray;
+      padding-bottom: 30px;
+      
+      }
 </style>
     </head>
 
@@ -44,22 +57,27 @@
 
       <h1><a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=%EB%A7%89%EA%B0%84&oquery=link+tag&tqi=iM1Velp0J14ssd6%2FvbZssssssql-335994">Maggan <sytle class="saw">카페,디저트</style></a></h1>
     </h1>
-
-    <div>
-        <img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210415_283%2F1618414584080fGvWO_JPEG%2Fnn6Z4vhWdoBvLaYXWK99qUyz.jpg">
-        <img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230228_224%2F1677576341596bFPVX_PNG%2F%25BD%25BA%25C5%25A9%25B8%25B0%25BC%25A6_2023-02-02_%25BF%25C0%25C8%25C4_4.48.34.png"> 
-        <img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230228_43%2F1677576341620dp9bq_PNG%2F%25BD%25BA%25C5%25A9%25B8%25B0%25BC%25A6_2023-02-02_%25BF%25C0%25C8%25C4_4.50.00.png"> 
-    </div>
-   <p border-bottom="1px solid gray">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/-MJ6TC0hciM?si=eNNQYkh9lXa-7IdH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-   </p>
+    <p>
+    <input type="button" value="night" onclick="
+    document.querySelector('body').style.background='black';
+    document.querySelector('body').style.color='white';">
+    <input type="button" value="day" onclick="
+     document.querySelector('body').style.background='white';
+     document.querySelector('body').style.color='black';">
+</p>
+    <span id="grid">
+       <span class="center"> <img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210415_283%2F1618414584080fGvWO_JPEG%2Fnn6Z4vhWdoBvLaYXWK99qUyz.jpg"> </span>
+       <span class="center"> <img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230228_224%2F1677576341596bFPVX_PNG%2F%25BD%25BA%25C5%25A9%25B8%25B0%25BC%25A6_2023-02-02_%25BF%25C0%25C8%25C4_4.48.34.png"> </span>
+       <span class="center"> <img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230228_43%2F1677576341620dp9bq_PNG%2F%25BD%25BA%25C5%25A9%25B8%25B0%25BC%25A6_2023-02-02_%25BF%25C0%25C8%25C4_4.50.00.png"> </span>
+       <span class="center"> <iframe width="450" height="350" src="https://www.youtube.com/embed/-MJ6TC0hciM?si=eNNQYkh9lXa-7IdH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></span>
+    </span>
 
 <ul>
     <li><a href="https://map.naver.com/v5/entry/place/1163169274?lng=127.03611748657141&lat=37.49405914097712&placePath=%2F&c=15,0,0,0,dh" target="_blank">위치</a></li>
-    <li><a href="https://map.naver.com/p/entry/place/1163169274?lng=127.03611748657141&lat=37.49405914097712&placePath=%2FbookingDeliveryItem&c=15.00,0,0,0,dh" target="_blank">메뉴</a></li>
+    <li><a href="메뉴.html" target="_blank">메뉴</a></li>
     <li><a href="https://map.naver.com/p/entry/place/1163169274?lng=127.03611748657141&lat=37.49405914097712&placePath=%2Freview%2Fvisitor&c=15.00,0,0,0,dh" target="_blank">리뷰</a></li>
 </ul>
-
+얍얍얍
 <p>
     <div id="disqus_thread"></div>
 <script>
@@ -97,5 +115,6 @@
     </script>
     <!--End of Tawk.to Script-->
 </p>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     </body>
 </html>
